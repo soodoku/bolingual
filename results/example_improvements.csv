@@ -1,0 +1,16 @@
+hindi,gold,votes,total_votes,q_raw,q_coarse,hard,orth_rank,phonetic_rank,hybrid_rank,orth_top5,phonetic_top5,hybrid_top5
+सर्किट्स,circuits,1,1,sarkitsa,sarkitsa,True,164.0,1.0,1.0,shark|sarkar|sachi|krista|sar,circuits|scotts|servants|keats|surat,circuits|scotts|socrates|markets|scout
+कैम,came,1,1,kaima,kema,True,126.0,1.0,1.0,chairman|chemicals|ke|claim|erma,came|keena|kana|gamma|koen,came|claim|kamal|coman|champa
+न्यू,new,12,12,nyuu,niu,True,122.0,1.0,1.0,nil|nick|neel|nile|nikki,new|no|ney|noth|not,new|no|nil|nick|neel
+थैचर,thatcher,1,1,thaichara,tekara,True,116.0,1.0,1.0,tara|texas|kara|teck|tea,thatcher|theatre|thayer|tucker|tower,thatcher|theatre|tara|thayer|tower
+डेटन,dayton,1,1,detana,detana,True,104.0,1.0,1.0,dana|dain|delta|dan|tan,dayton|titan|devona|devon|dana,dayton|dana|dain|date|debt
+केप,cape,3,5,kepa,kepa,True,94.0,1.0,1.0,kelp|ke|cleopatra|kenya|kedar,cape|keep|cup|copper|kelp,cape|keep|cup|kelp|ke
+गेट,gate,2,2,geta,geta,True,90.0,1.0,1.0,greta|gai|leta|jetta|esta,gate|gayda|keto|great|katha,gate|greta|great|gai|leta
+फेम,fame,3,4,fema,fema,True,74.0,1.0,1.0,erma|fermi|pharma|freak|fedora,fame|fermi|flame|farah|pharma,fame|fermi|pharma|faith|fait
+सक्सेशन,succession,1,1,sakseshana,saksesana,True,67.0,1.0,1.0,sachin|saran|sagan|zachary|arkansas,succession|success|suspension|jackson|square,succession|success|sagan|sachin|samsung
+डोर,door,2,2,dora,dora,True,43.0,1.0,1.0,dorcas|fedora|do|doren|oral,door|dear|tori|dairy|tara,door|doren|dear|dorcas|kora
+स्कल्पचर,sculpture,1,1,skalpachara,skalpakara,True,41.0,1.0,1.0,zapata|calla|sal|saal|kalka,sculpture|color|super|sailor|copper,sculpture|kampala|calla|zapata|kaler
+वॉक,walk,2,2,voka,voka,True,36.0,1.0,1.0,coca|works|volga|ova|wachovia,walk|walker|wake|week|vega,walk|week|walker|wake|coca
+डग,dug,1,1,daga,daga,True,33.0,1.0,1.0,dagan|daya|dana|dada|da,dug|dog|dagan|edgar|vega,dug|dagan|dog|dana|edgar
+यूनियन,union,2,2,yuuniyana,iuniana,True,33.0,1.0,1.0,yunis|indian|india|una|quintana,union|yunis|yelena|canyon|banyan,union|yunis|indian|banyan|mining
+बेट्स,bates,1,2,betsa,betsa,True,26.0,1.0,1.0,beta|betar|best|berchtesgaden|bela,bates|beta|bate|base|batra,bates|beta|betar|bassa|bethel
