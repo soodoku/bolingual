@@ -29,9 +29,7 @@ def main() -> None:
 
     with st.sidebar:
         st.header("Parameters")
-        top_k: int = st.slider(
-            "top_k (shortlist size)", min_value=50, max_value=300, value=200
-        )
+        top_k: int = st.slider("top_k (shortlist size)", min_value=50, max_value=300, value=200)
         alpha: float = st.slider(
             "alpha (orthographic weight)", min_value=0.0, max_value=1.0, value=0.5
         )
@@ -61,8 +59,7 @@ def main() -> None:
         best_match = rankings["hybrid"][0]
         st.markdown("---")
         st.markdown(
-            f"### Best Match: **{hindi_input}** → **{best_match[1]}** "
-            f"(score: {best_match[0]:.3f})"
+            f"### Best Match: **{hindi_input}** → **{best_match[1]}** (score: {best_match[0]:.3f})"
         )
 
         orth_rank_map = {word: i + 1 for i, (_, word) in enumerate(rankings["orthographic"])}
@@ -121,6 +118,16 @@ def main() -> None:
                     for i, (score, word) in enumerate(rankings["hybrid"][:10])
                 ]
                 st.dataframe(pd.DataFrame(hybrid_data), use_container_width=True, hide_index=True)
+
+
+def run_cli() -> None:
+    """Entry point for bolingual-app CLI command."""
+    import sys
+
+    from streamlit.web.cli import main as st_main
+
+    sys.argv = ["streamlit", "run", __file__]
+    st_main()
 
 
 if __name__ == "__main__":
