@@ -52,6 +52,3 @@ Thumbs.db
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
-
-# Local experiments
-epitran_phonetic_match.py
