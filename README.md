@@ -26,6 +26,26 @@ Or with [uv](https://docs.astral.sh/uv/):
 uv add bolingual
 ```
 
+### Streamlit App
+
+To use the interactive web app:
+
+```bash
+pip install bolingual[app]
+```
+
+Then run:
+
+```bash
+bolingual-app
+```
+
+Or directly with streamlit:
+
+```bash
+streamlit run src/bolingual/app.py
+```
+
 ## Method Comparison
 
 Evaluation on held-out test set (740 items, top_k=200, alpha=0.5):
