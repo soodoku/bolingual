@@ -43,7 +43,7 @@ bolingual-app
 Or directly with streamlit:
 
 ```bash
-streamlit run src/bolingual/app.py
+streamlit run bolingual/app.py
 ```
 
 ## Method Comparison
